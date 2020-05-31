@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>My Little Cake Shop</title>
+</head>
+<body bgcolor="pink" text="blue">
+<img src="cakeshop\33.jpg" width=1350 height=200>
+<font face="Book Antiqua">
+<table border=0 width=100% cellspacing=5>
+<tr align=center>
+<th bgcolor=pink><a href="Main Project.HTML"><h2>Home</h2></th>
+<th bgcolor=pink><a href="111.HTML"><h2>Categories</h2></th>
+<th bgcolor=pink><a href="cake.HTML"><h2>Cakes</h2></th>
+<th bgcolor=pink><a href="s1.HTML"><h2>Online</h2></th>
+<th bgcolor=pink><a href="contact.HTML"><h2>Contact</h2></th>
+</table>
+<p style=background:yellow><b><marquee><big>YOU CAN ORDER ONLINE CALL TO:022-421525</big></marquee></b></p>
+
+<head>
+<title>Form Validation</title>
+
+</head>
+<body>
+
+ <form action="signup.php" method="post">
+
+First Name: <input title="Enter your name" type="text" name="Name" ng-pattern="/^[A-Za-z]+$/" required><br><br>
+
+Email:       <input type="email" name="Email"><br><br>
+Phone:       <input title="Please Enter Phone number" type="number" name="Phone" required pattern="[7-9]{1}[0-9]{9}"/> <br><br>
+Gender: <input type="radio" name="Gender value="male"">Male
+<input type="radio" name="Gender value="Female"">Female<br>
+  Flavour:     <input title="Enter your favorite flavour" type="text" name="flavour" ng-pattern="/^[A-Za-z]+$/" required><br><br>
+   weight: <select name="listNumbers" id="listNumbers" required pattern="[1-4]"><br><br>
+   <option value="-1" selected>[choose yours]</option>
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <br><br>
+   
+   <input type="submit" name="submit" >
+ </form>
+ </body>
+ </html>
+
